@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erotic Nuru Experience in Tel Aviv</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #f00; /* Red */
+            padding: 50px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .cta-button {
+            background-color: #800080; /* Purple */
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .whatsapp-button {
+            background-color: #25D366; /* Green for WhatsApp */
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        #about {
+            background-color: #111;
+        }
+        #reviews {
+            background-color: #222;
+        }
+        #contact {
+            background-color: #111;
+            text-align: center;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #f00;
+            background-color: #333;
+            color: #fff;
+        }
+        button {
+            background-color: #800080;
+            color: #fff;
+            padding: 15px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1.2em;
+        }
+        .lang-switch {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .lang-switch a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            section {
+                padding: 30px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Language Switcher -->
+    <div class="lang-switch">
+        <a href="#en" onclick="switchLang('en')">English</a>
+        <a href="#ru" onclick="switchLang('ru')">Русский</a>
+        <a href="#he" onclick="switchLang('he')">עברית</a>
+    </div>
+
+    <!-- Main Screen -->
+    <header id="header">
+        <h1>Nuru Experience in Tel Aviv</h1>
+        <p>Exclusive Erotic Nuru experience in Center of Tel Aviv</p>
+        <a href="https://wa.me/yourwhatsappnumber" class="whatsapp-button">Связаться по WhatsApp</a>
+    </header>
+
+    <!-- About Company -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are the only ones on the market offering exclusive erotic Nuru experiences. Our services include erotic experiences and private dating, designed to provide unforgettable moments with transparency and excitement.</p>
+        <p>Our key advantages: Exclusive offers presented emotionally to ignite your senses.</p>
+    </section>
+
+    <!-- Cases / Results / Reviews -->
+    <section id="reviews">
+        <h2>Reviews and Results</h2>
+        <p>"Amazing experience! Highly recommend." - Client A</p>
+        <p>"Unique and thrilling. Will come back." - Client B</p>
+        <!-- Add more placeholder reviews or real ones if provided -->
+    </section>
+
+    <!-- Contacts / Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="your-form-endpoint" method="POST">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="text" name="city" placeholder="City" required>
+            <input type="text" name="whatsapp" placeholder="WhatsApp" required>
+            <button type="submit">Submit Application</button>
+        </form>
+        <a href="https://wa.me/yourwhatsappnumber" class="whatsapp-button" style="margin-top: 20px;">Or Contact via WhatsApp</a>
+    </section>
+
+    <script>
+        // Simple language switcher (placeholders; in real implementation, use proper translations)
+        function switchLang(lang) {
+            if (lang === 'ru') {
+                document.querySelector('#header h1').textContent = 'Nuru Experience в Тель-Авиве';
+                document.querySelector('#header p').textContent = 'Эксклюзивный эротический Nuru опыт в центре Тель-Авива';
+                document.querySelector('.whatsapp-button').textContent = 'Связаться по WhatsApp';
+                // Update other texts similarly
+            } else if (lang === 'he') {
+                document.querySelector('#header h1').textContent = 'חווית נורו בתל אביב';
+                document.querySelector('#header p').textContent = 'חווית נורו אירוטית בלעדית במרכז תל אביב';
+                document.querySelector('.whatsapp-button').textContent = 'צור קשר בוואטסאפ';
+                // Update other texts
+            } else {
+                // Default to English
+                document.querySelector('#header h1').textContent = 'Nuru Experience in Tel Aviv';
+                document.querySelector('#header p').textContent = 'Exclusive Erotic Nuru experience in Center of Tel Aviv';
+                document.querySelector('.whatsapp-button').textContent = 'Contact via WhatsApp';
+            }
+            // Extend for other sections as needed
+        }
+    </script>
+
+</body>
+</html>
